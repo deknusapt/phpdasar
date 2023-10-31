@@ -26,6 +26,15 @@ $nama_depan = "Sri";
 $nama_belakang = "Nadi";
 echo $nama_depan. " " .$nama_belakang;
 
+// Assignment --> =, +=, -=, *=, /=, %=, .=
+$t = 1;
+$t += 5; // --> penambahan
+$t -= 5; // --> pegurangan
+
+// Perbandingan --> <, >, <=, >=, == 
+
+// Logika --> &&, ||, !
+
 
 /* Penulisan sintaks PHP
    dapat dikombinasikan 
