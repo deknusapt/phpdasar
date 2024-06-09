@@ -8,9 +8,9 @@
 
 $i = 10;
 if ($i < 20){
-    echo "yeahhh";
+    echo "Betul";
 } else {
-    echo "booo";
+    echo "Salah";
 }
 
 ?>
