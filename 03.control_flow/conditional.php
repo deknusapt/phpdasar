@@ -7,10 +7,11 @@
 */
 
 $i = 10;
-if ($i < 20){
+if ($i < 10){
     echo "Betul";
+} else if ($i == 10){
+    echo "Bingo";
 } else {
     echo "Salah";
 }
-
 ?>
