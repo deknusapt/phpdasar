@@ -5,9 +5,9 @@ error_reporting(E_ALL);
 
 // Variabel untuk kredensial database
 $hostname = "localhost";
-$username = "phpmyadmin_user";
-$password = "myadminpass";
-$dbname = "phpdasar";
+$username = "";
+$password = "";
+$dbname = "";
 
 // Koneksi ke database
 $conn = mysqli_connect("$hostname","$username","$password","$dbname");
