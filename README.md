@@ -1,2 +1,4 @@
-# phpdasar
-Belajar Pemrograman PHP Dasar
+# <? phpdasar 
+#
+ echo "Belajar Pemrograman PHP Dasar";
+# ?>
