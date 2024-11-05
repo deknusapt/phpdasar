@@ -3,11 +3,14 @@ ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 
+require '../dbCredentials.php';
+global $dbUsername, $dbPassword, $dbName;
+
 // Variabel untuk kredensial database
 $hostname = "localhost";
-$username = "";
-$password = "";
-$dbname = "";
+$username = $dbUsername;
+$password = $dbPassword;
+$dbname = $dbName;
 
 // Koneksi ke database
 $conn = mysqli_connect("$hostname","$username","$password","$dbname");

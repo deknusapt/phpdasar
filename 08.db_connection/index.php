@@ -1,5 +1,5 @@
 <?php
-require 'connections.php';
+require 'dbConnection.php';
 
 // Variable $data menampung hasil kueri dari fungsi querry yang memiliki argumen sintask SQL
 $data = querry("SELECT * FROM mahasiswa");
@@ -28,14 +28,14 @@ $data = querry("SELECT * FROM mahasiswa");
     <?php foreach ($data as $row): ?>
     <tr>
         <td><?= $i ?></td>
-        <td>
-            <a href="">Ubah</a> |
-            <a href="">Aksi</a>
-        </td>
         <td><?= $row["nama"]?></td>
         <td><?= $row["nim"]?></td>
         <td><?= $row["jurusan"]?></td>
         <td><?= $row["email"]?></td>
+        <td>
+            <a href="">Ubah</a> |
+            <a href="">Aksi</a>
+        </td>
     </tr>
     <?php $i++; ?>
     <?php endforeach; ?>
