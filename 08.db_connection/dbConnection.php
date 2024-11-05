@@ -3,7 +3,7 @@ ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 
-// Memanggil file penampung kredensial akses database
+// Memanggil file penampung kredensial akses ke dalam database
 require '../dbCredentials.php';
 global $dbUsername, $dbPassword, $dbName;
 
